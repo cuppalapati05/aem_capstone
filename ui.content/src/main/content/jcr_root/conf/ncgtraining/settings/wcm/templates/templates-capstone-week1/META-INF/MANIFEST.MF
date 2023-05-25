@@ -1,0 +1,7 @@
+Manifest-Version: 1.0
+Content-Package-Id: my_packages:templates-capstone-week1
+Content-Package-Roots: /conf/ncgtraining/settings/wcm/templates/empty-pa
+ ge,/conf/ncgtraining/settings/wcm/templates/home-page,/conf/ncgtraining
+ /settings/wcm/templates/article-page
+Content-Package-Type: content
+

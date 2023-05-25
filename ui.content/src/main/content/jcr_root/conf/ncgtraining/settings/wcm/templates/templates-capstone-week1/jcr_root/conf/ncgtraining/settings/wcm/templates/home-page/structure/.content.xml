@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:deviceGroups="[mobile/groups/responsive]"
+        cq:lastModified="{Date}2023-05-25T16:13:52.657+05:30"
+        cq:lastModifiedBy="admin"
+        cq:template="/conf/ncgtraining/settings/wcm/templates/home-page"
+        jcr:primaryType="cq:PageContent"
+        sling:resourceType="ncgtraining/components/page">
+        <root
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="ncgtraining/components/container"
+            layout="responsiveGrid">
+            <primaryheader_1967658470
+                jcr:created="{Date}2023-05-23T14:06:38.952+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2023-05-25T16:07:57.679+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="ncgtraining/components/primaryheader"
+                trendingDesc=" Instagram's big redesign goes live with black-and-white app"
+                trendingText="Trending"/>
+            <secondaryheader_1737580571
+                jcr:created="{Date}2023-05-23T14:06:44.973+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2023-05-25T16:12:28.229+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="ncgtraining/components/secondaryheader"
+                displayLanguages="true"
+                languages="[English,Dutch,Spanish]"
+                logo="/content/dam/ncgtraining/images/adobe_logo.png"/>
+            <header_navigation
+                jcr:created="{Date}2023-05-23T14:07:48.196+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2023-05-23T14:18:47.536+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="ncgtraining/components/header-navigation"
+                collectAllPages="true"
+                disableShadowing="false"
+                navigationRoot="/content/ncgtraining/us/en"
+                structureStart="1"/>
+            <container
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="ncgtraining/components/container"
+                editable="{Boolean}true"
+                layout="responsiveGrid"/>
+            <footer
+                jcr:created="{Date}2023-05-23T14:51:30.783+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2023-05-25T16:07:42.574+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="ncgtraining/components/footer"
+                logo="/content/dam/ncgtraining/images/adobe_logo.png"
+                trendingDesc="Adobe is an American software company known for its multimedia and creativity software products. Popular products include Photoshop, Acrobat Reader, and Creative Cloud. Headquartered in San Jose, California, the company was founded in 1982 by John Warnock and Charles Geschke."
+                trendingText="About"/>
+        </root>
+        <cq:responsive jcr:primaryType="nt:unstructured">
+            <breakpoints jcr:primaryType="nt:unstructured">
+                <phone
+                    jcr:primaryType="nt:unstructured"
+                    title="Smaller Screen"
+                    width="{Long}768"/>
+                <tablet
+                    jcr:primaryType="nt:unstructured"
+                    title="Tablet"
+                    width="{Long}1200"/>
+            </breakpoints>
+        </cq:responsive>
+    </jcr:content>
+</jcr:root>
